@@ -1,0 +1,14 @@
+// scheme colors
+
+$secondary: #f2f2f2;
+$info: #9aafd6;
+$theme-colors: (
+  "secondary": $secondary,
+  "info": $info,
+);
+
+//Font  family
+
+$font-family-sans-serif: "Roboto", sans-serif;
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";

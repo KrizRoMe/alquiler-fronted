@@ -1,13 +1,13 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HomePage from "./pages/HomePage.jsx";
-import LoginPage from "./pages/LoginPage.jsx";
-import ErrorPage from "./pages/ErrorPage.jsx";
+import HomePage from "./pages/HomePage";
+import LoginPage from "./pages/LoginPage";
+import ErrorPage from "./pages/ErrorPage";
 import PaymentsDashboard from "./pages/dashboard/PaymentsDashboard";
 import ContractDashboard from "./pages/dashboard/ContractDashboard";
 import ManageDashboard from "./pages/dashboard/ManageDashboard";
 import ServicesDashboard from "./pages/dashboard/ServicesDashboard";
 import ProfileDashboard from "./pages/dashboard/ProfileDashboard";
-import HomeDashboard from "./pages/dashboard/HomeDashboard.jsx";
+import HomeDashboard from "./pages/dashboard/HomeDashboard";
 
 function App() {
   return (
