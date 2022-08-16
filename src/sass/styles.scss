@@ -2,9 +2,17 @@
 
 $secondary: #f2f2f2;
 $info: #9aafd6;
+$primary: #0d6efd;
+$dark: #212529;
+$danger: #dc3545;
+$warning: #ffc107;
 $theme-colors: (
   "secondary": $secondary,
   "info": $info,
+  "primary": $primary,
+  "dark": $dark,
+  "danger": $danger,
+  "warning": $warning,
 );
 
 //Font  family

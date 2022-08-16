@@ -2,7 +2,7 @@ import React from "react";
 
 const InformacionContacto = ({ label, firstDiv, secondDiv }) => {
   return (
-    <section className="col-lg-3 col-md-6 col-sm-12">
+    <section className="col-lg-3 col-md-6 col-sm-12 col-12">
       <label className="p-4 fw-bold">{label}</label>
       <div className="mb-2">{firstDiv}</div>
       <div>{secondDiv}</div>
@@ -12,7 +12,7 @@ const InformacionContacto = ({ label, firstDiv, secondDiv }) => {
 
 const RedSocial = ({ label, icon }) => {
   return (
-    <section className="col-lg-3 col-md-6 col-sm-12">
+    <section className="col-lg-3 col-md-6 col-sm-12 col-12">
       <label className="p-4 fw-bold">{label}</label>
       <a
         className={`bi bi-${icon} fs-4 mb-2 list-group-item`}
@@ -34,7 +34,7 @@ const RedSocial = ({ label, icon }) => {
 
 function Footer() {
   return (
-    <div className="row justify-content-center bg-info p-5 text-white text-center">
+    <div className="row m-0 bg-info p-5 text-white text-center">
       <InformacionContacto
         label="DESARROLLADO POR"
         firstDiv="CRISTOPHER ROMERO"
