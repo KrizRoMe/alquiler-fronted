@@ -1,0 +1,77 @@
+[
+  {
+    "numberRoom": 1,
+    "numberEnglish": "One",
+    "payMonth": true
+  },
+  {
+    "numberRoom": 2,
+    "numberEnglish": "Two",
+    "payMonth": false
+  },
+  {
+    "numberRoom": 3,
+    "numberEnglish": "Three",
+    "payMonth": true
+  },
+  {
+    "numberRoom": 4,
+    "numberEnglish": "Four",
+    "payMonth": true
+  },
+  {
+    "numberRoom": 5,
+    "numberEnglish": "Five",
+    "payMonth": false
+  },
+  {
+    "numberRoom": 6,
+    "numberEnglish": "Six",
+    "payMonth": true
+  },
+  {
+    "numberRoom": 7,
+    "numberEnglish": "Seven",
+    "payMonth": true
+  },
+  {
+    "numberRoom": 8,
+    "numberEnglish": "Eight",
+    "payMonth": false
+  },
+  {
+    "numberRoom": 9,
+    "numberEnglish": "Nine",
+    "payMonth": true
+  },
+  {
+    "numberRoom": 10,
+    "numberEnglish": "Ten",
+    "payMonth": false
+  },
+  {
+    "numberRoom": 11,
+    "numberEnglish": "Eleven",
+    "payMonth": false
+  },
+  {
+    "numberRoom": 12,
+    "numberEnglish": "Twelve",
+    "payMonth": true
+  },
+  {
+    "numberRoom": 13,
+    "numberEnglish": "Thirtheen",
+    "payMonth": true
+  },
+  {
+    "numberRoom": 14,
+    "numberEnglish": "Fourteen",
+    "payMonth": false
+  },
+  {
+    "numberRoom": 15,
+    "numberEnglish": "Fifteen",
+    "payMonth": false
+  }
+]
