@@ -10,7 +10,7 @@ function HomePage() {
 
       {/*Main*/}
       <div
-        className="accordion accordion-flush mt-5 mb-5"
+        className="accordion accordion-flush container-fluid mt-5 mb-5"
         id="accordionFlushExample"
       >
         {listRoom.map((room) => {
