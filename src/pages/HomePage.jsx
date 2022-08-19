@@ -2,12 +2,13 @@ import React from "react";
 import Footer from "../components/Footer";
 import CardRoom from "../components/CardRoom";
 import listRoom from "../json/listRoom.json";
+import Header from "../components/Header";
 
 function HomePage() {
   return (
     <div className="bg-secondary">
       {/* <Header /> */}
-
+      <Header />
       {/*Main*/}
       <div
         className="accordion accordion-flush container-fluid mt-5 mb-5"
