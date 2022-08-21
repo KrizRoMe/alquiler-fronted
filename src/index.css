@@ -1,0 +1,9 @@
+@media (max-width: 576px) {
+  .fs-4 {
+    font-size: 16px !important;
+  }
+
+  .p-btn {
+    padding: 5px 30px !important;
+  }
+}

@@ -11,7 +11,7 @@ function HomePage() {
       <Header />
       {/*Main*/}
       <div
-        className="accordion accordion-flush container-fluid mt-5 mb-5"
+        className="accordion accordion-flush container mt-5 mb-5"
         id="accordionFlushExample"
       >
         {listRoom.map((room) => {
