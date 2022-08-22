@@ -10836,3 +10836,13 @@ textarea.form-control-lg {
     display: none !important;
   }
 }/*# sourceMappingURL=styles.css.map */
+
+.box-login{
+  width:58vw;
+}
+
+.frm-button-login:focus{
+  outline:none;
+  color:#9aafd6;
+}
+
