@@ -1,23 +1,18 @@
 const Header = () => {
   return (
-    <nav className=" d-flex bg-white h-100 py-4">
-      <div className=" d-flex flex-row  container my-2 ">
-
+    <nav className=" d-flex bg-white h-100 py-4 row m-0">
+      <div className=" d-flex flex-row  container my-2 justify-content-between col-10">
         <a
           href="/"
-          className="d-flex flex-row align-items-center text-decoration-none container "
+          className="d-flex flex-row align-items-center text-decoration-none"
         >
-          <span className="text-info fs-6  @media (min-width: 768px) and (max-width: 991.98px) { fs-4 }">
-            ALQUILER
-          </span>
-          <span className="ms-2 text-blue fs-6 @media (min-width: 768px) and (max-width: 991.98px) { fs-4 }">
-            CUARTOS
-          </span>
+          <span className="text-dark fs-5">ALQUILER</span>
+          <span className="text-primary fs-5">CUARTOS</span>
         </a>
 
         <a
           href="/productos/nuevo"
-          className="btn btn-outline-primary px-4 @media (min-width: 768px) and (max-width: 991.98px) { px-5 }"
+          className="btn btn-outline-primary px-3 px-sm-3 px-md-5"
         >
           LOGIN
         </a>

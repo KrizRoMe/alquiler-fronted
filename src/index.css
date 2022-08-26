@@ -1,1 +1,8 @@
+.frm-input-login{
+  color:#000000;
+}
+.frm-input-login:focus{
+  outline:none;
+}
+
 
