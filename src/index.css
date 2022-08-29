@@ -1,0 +1,17 @@
+@media screen and (max-width: 576px) {
+  .fs-5 {
+    font-size: 15px !important;
+  }
+  .fs-4 {
+    font-size: 18px !important;
+  }
+  .fs-6 {
+    font-size: 14px !important;
+  }
+  .fs-button {
+    font-size: 12px !important;
+  }
+  .fs-footer {
+    font-size: 14px !important;
+  }
+}

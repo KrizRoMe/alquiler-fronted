@@ -12,7 +12,7 @@ const Header = () => {
 
         <a
           href="/productos/nuevo"
-          className="btn btn-outline-primary px-3 px-sm-3 px-md-5 fs-button"
+          className="btn btn-outline-primary px-3 px-sm-5 fs-button"
         >
           LOGIN
         </a>
