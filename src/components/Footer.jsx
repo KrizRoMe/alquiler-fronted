@@ -3,9 +3,9 @@ import React from "react";
 const InformacionContacto = ({ label, firstDiv, secondDiv }) => {
   return (
     <section className="col-lg-3 col-md-6 col-sm-12 col-12">
-      <label className="p-4 fw-bold">{label}</label>
-      <div className="mb-2">{firstDiv}</div>
-      <div>{secondDiv}</div>
+      <label className="p-4 fw-bold fs-footer">{label}</label>
+      <div className="mb-2 fs-footer">{firstDiv}</div>
+      <div className="fs-footer">{secondDiv}</div>
     </section>
   );
 };
@@ -13,7 +13,7 @@ const InformacionContacto = ({ label, firstDiv, secondDiv }) => {
 const RedSocial = ({ label, icon }) => {
   return (
     <section className="col-lg-3 col-md-6 col-sm-12 col-12">
-      <label className="p-4 fw-bold">{label}</label>
+      <label className="p-4 fw-bold fs-footer">{label}</label>
       <a
         className={`bi bi-${icon} fs-4 mb-2 list-group-item`}
         href={
@@ -47,8 +47,10 @@ function Footer() {
       />
       <RedSocial label="FACEBOOK" icon="facebook" />
       <RedSocial label="INSTAGRAM" icon="instagram" />
-      <section className="derechos text-center pt-5">
-        <label className="fw-light">@TODOS LOS DERECHOS RESERVADOS 2022</label>
+      <section className="derechos text-center pt-3 pt-sm-5">
+        <label className="fw-light fs-footer">
+          @TODOS LOS DERECHOS RESERVADOS 2022
+        </label>
       </section>
     </div>
   );
