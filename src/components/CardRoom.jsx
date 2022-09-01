@@ -32,10 +32,14 @@ function CardRoom({ numberRoom, numberEnglish, payMonth }) {
         data-bs-parent="#accordionFlushExample"
       >
         <div className="accordion-body d-flex align-items-center">
-          <input type="text" className="form-control mx-2 " placeholder="DNI" />
+          <input
+            type="text"
+            className="form-control mx-2 fs-6"
+            placeholder="DNI"
+          />
           <button
             type="button"
-            className="btn btn-outline-primary col-md-3 col-sm-4 mx-2 col-6"
+            className="btn btn-outline-primary col-md-3 col-sm-4 mx-2 col-6 fs-button"
           >
             VER DETALLE
           </button>
